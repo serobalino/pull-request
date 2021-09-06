@@ -40,6 +40,10 @@ export default {
       'Services',
       'Blog',
       'Contact Us',
+      'BISS',
+      ' SGC',
+      'SEMINUEVOS',
+      'KONFIDENCE',
     ],
   }),
 }
