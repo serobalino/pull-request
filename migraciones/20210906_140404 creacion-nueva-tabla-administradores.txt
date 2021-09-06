@@ -1,0 +1,17 @@
+6/9/2021 14:04:04
+IgnacioHerreria
+
+####################################
+
+Haciendo ping a google.com [142.250.64.206] con 32 bytes de datos:
+Respuesta desde 142.250.64.206: bytes=32 tiempo=66ms TTL=114
+Respuesta desde 142.250.64.206: bytes=32 tiempo=65ms TTL=114
+Respuesta desde 142.250.64.206: bytes=32 tiempo=78ms TTL=114
+Respuesta desde 142.250.64.206: bytes=32 tiempo=65ms TTL=114
+
+Estad¡sticas de ping para 142.250.64.206:
+    Paquetes: enviados = 4, recibidos = 4, perdidos = 0
+    (0% perdidos),
+Tiempos aproximados de ida y vuelta en milisegundos:
+    M¡nimo = 65ms, M ximo = 78ms, Media = 68ms
+
