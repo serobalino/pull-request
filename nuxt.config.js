@@ -65,6 +65,9 @@ export default {
   router: {
     base: process.env.NODE_ENV === 'production' ? '/pull-request/' : '',
   },
+  generate: {
+    fallback: true
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
