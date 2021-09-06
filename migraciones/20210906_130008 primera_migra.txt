@@ -1,0 +1,17 @@
+06/09/2021 13:00:08
+Sebastian
+
+####################################
+
+Haciendo ping a google.com [172.217.15.206] con 32 bytes de datos:
+Respuesta desde 172.217.15.206: bytes=32 tiempo=63ms TTL=113
+Respuesta desde 172.217.15.206: bytes=32 tiempo=63ms TTL=113
+Respuesta desde 172.217.15.206: bytes=32 tiempo=63ms TTL=113
+Respuesta desde 172.217.15.206: bytes=32 tiempo=63ms TTL=113
+
+Estad¡sticas de ping para 172.217.15.206:
+    Paquetes: enviados = 4, recibidos = 4, perdidos = 0
+    (0% perdidos),
+Tiempos aproximados de ida y vuelta en milisegundos:
+    M¡nimo = 63ms, M ximo = 63ms, Media = 63ms
+
