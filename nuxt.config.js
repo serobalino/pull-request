@@ -63,7 +63,7 @@ export default {
     }
   },
   router: {
-    base: process.env.NODE_ENV !== 'production' ? 'pull-request' : null,
+    base: process.env.NODE_ENV === 'production' ? '/pull-request/' : '',
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
