@@ -39,7 +39,8 @@ export default {
       'Team',
       'Services',
       'Blog',
-      'Contact Us',
+      'Trabeje',
+      'New'
     ],
   }),
 }
