@@ -41,9 +41,11 @@ export default {
       'Blog',
       'Contact Us',
       'BISS',
-      ' SGC',
+      'SGC',
       'SEMINUEVOS',
       'KONFIDENCE',
+      'Trabeje',
+      'New'
     ],
   }),
 }
