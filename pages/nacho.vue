@@ -39,6 +39,11 @@ export default {
       'Team',
       'Services',
       'Blog',
+      'Contact Us',
+      'BISS',
+      'SGC',
+      'SEMINUEVOS',
+      'KONFIDENCE',
       'Trabeje',
       'New'
     ],
