@@ -87,7 +87,6 @@ export default {
       });
     },
     updateMigras() {
-      console.log(MigracionesFiles.keys())
       this.lista = Array.from(MigracionesFiles.keys(), i => ({
         name: i.split('/').pop().split('.')[0],
         file: i

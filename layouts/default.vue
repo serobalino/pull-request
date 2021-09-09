@@ -11,12 +11,12 @@
         <v-list-item
           v-for="(item, i) in items"
           :key="i"
-          :to="item.to"
+          :to="item.path"
           router
           exact
         >
           <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
+            <v-list-item-title v-text="item.name" />
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -64,17 +64,13 @@
 </template>
 
 <script>
-const ComponentContext = require.context('@/pages/', true, /\.vue$/i, 'lazy')
 export default {
   data () {
     return {
       clipped: false,
       drawer: false,
       fixed: false,
-      items: Array.from(ComponentContext.keys(), i => ({
-        to: i.split('/').pop().split('.')[0]==='index' ? '/' : '/'+i.split('/').pop().split('.')[0],
-        title: i.split('/').pop().split('.')[0]
-      })),
+      items: this.$router.options.routes,
       miniVariant: false,
       right: true,
       rightDrawer: false,
