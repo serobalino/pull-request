@@ -32,8 +32,8 @@
                     color="primary"
                   >
                     <v-list-item v-for="(item,index) in lista" :key="index" v-on:click="cargarTxt(item)">
-                      <v-list-item-content >
-                        <v-list-item-title class="text-h6">
+                      <v-list-item-content class="pa-0 ma-0">
+                        <v-list-item-title class="text pa-0 ma-0">
                           {{ item.name }}
                         </v-list-item-title>
                       </v-list-item-content>
@@ -45,7 +45,10 @@
               <template v-if="cargando">
                 <span>Cargando</span>
               </template>
-              <div v-else class="migra">{{ texto }}</div>
+              <template v-else>
+                <b>{{lista[sel].name}}</b>
+                <div class="migra">{{ texto }}</div>
+              </template>
             </v-col>
           </v-row>
         </v-card-text>
@@ -76,7 +79,7 @@ export default {
     lista: [],
     texto: null,
     cargando: false,
-    sel: null,
+    sel: 0,
   }),
   methods: {
     cargarTxt(obj) {

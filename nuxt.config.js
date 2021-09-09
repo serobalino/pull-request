@@ -1,4 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
+import es from 'vuetify/es5/locale/es'
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -60,7 +61,11 @@ export default {
           success: colors.green.accent3
         }
       }
-    }
+    },
+    lang: {
+      locales: { es },
+      current: 'es',
+    },
   },
   router: {
     base: process.env.NODE_ENV === 'production' ? '/pull-request/' : '',
